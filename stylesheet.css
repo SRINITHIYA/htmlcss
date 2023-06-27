@@ -1,0 +1,292 @@
+body{
+	color:black;
+	font-weight:normal;/*lighter,normal,bolder,bold*/
+	background-color:lime;
+   background-color:#ffcf79;*/
+   font-size:25px;
+   /*background-color:rgb(240,28,235);*/
+
+/*
+	padding:20px;
+	border-color:black;
+	border-width:2px;
+	border-style:solid;
+	margin:0;
+*/
+	/*background-image:url(cloud2.jpg);*/
+}
+
+h1{
+	
+
+   text-decoration:overline;
+   font=size:120%;
+   /* for center purpose*/
+   text-align:center;
+   
+}
+
+h2{
+	text-decoration:underline;
+	text-align:center;
+
+}
+h3{
+ text-decoration:line-through;
+}
+
+h4{
+
+	text-decoration:underline overline;
+	font-size:1.2em;
+}
+h5{
+	text-decoration:none;
+
+}
+h6
+{
+	color:green;
+}
+  p.blue{
+
+	color:blue;
+	font-size:25px;
+	font-family:Helvetica;
+	
+}
+  /* use blockquotes means remove the p note that*/
+  .yellow{
+
+	
+	font-size:25px;
+	font-style:italic;/*oblique* also same but minute dif*/
+	line-height:30px;
+
+  background-color:#e5e4d7;
+
+	padding:20px 20px 70px 70px;/* top ri8 bottom left*/
+ 
+
+
+   border-width:thick;
+	/* we can also combine border property
+	border:black 2px dotted;
+*/
+	/*border-color:black;
+	border-width:2px;
+	border-style:solid;*/
+
+	/*we can eliminate the margin by margin:0*/
+
+	margin:0;
+
+	
+
+
+}
+
+p.green
+
+{
+   font-size:25px;
+	font-style:italic;/*oblique* also same but minute dif*/
+	line-height:30px;
+	/*background-color:#e5e4d7;*/
+	padding-left:50px;
+	border-color:black;
+	border-width:2px;
+	border-style:solid;
+	margin:10px;
+	margin-left:500px;
+	/*background-image:url(clouds.gif)*/
+
+
+
+}
+
+#para
+{
+	font-size:25px;
+	font-style:italic;/*oblique* also same but minute dif*/
+	line-height:30px;
+	/*background-color:#e5e4d7;*/
+	padding-left:50px;
+	border-color:black;
+	border-width:2px;
+	border-style:solid;
+	margin:10px;
+	margin-left:500px;
+	background-image:url(clouds.gif)
+
+
+}
+
+.imagec{
+
+/*display :block is more imp*/
+   display:block;
+	background-color:silver;
+	padding:20px;
+	border-color:black;
+	border-width:2px;
+	border-style:dotted; /* there are more refer ss in phone*/
+	margin-left:auto;
+	margin-right:auto;
+
+	/* curve radius also ref ss in phone
+	border-radius:10px;*/
+	border-top-right-radius:10px;
+	border-bottom-color:red;
+
+
+}
+
+#divmain{
+	color:black;
+	/*this leads to also color black to the fish heading so in order to change it give color for also heading*/
+}
+
+.highlight
+{
+	background-color:"#ffff00";/*only use value dont color like oink*/
+}
+
+/* these are special for link color changes pseudo class*/
+a:link
+{
+	color:blue;
+}
+a:visited
+{
+	color:red;/* ss in phone*/
+}
+a:hover
+{
+	color:green;
+	cursor:move;
+}
+
+
+.button
+{
+background:#e7e7e7;
+border:1px solid;
+border-radius:3px;
+box-sizing:border-box;
+display:block;
+height:30px;
+line-height:28px;
+
+/*padding:0 20px;
+margin:0 auto;*/
+padding:2px;
+
+}
+
+
+
+a{
+color:black;
+/*remove underline*/ text-decoration:none;
+float:left;/* it is imp for for cut the full box and float into left*/
+}
+
+
+
+ul
+
+{
+	/*to remove dot */list-style-type:none;
+
+}
+
+
+#cease
+{
+	background-color:darkgreen;
+   border-radius:5px;
+   padding:10px;
+   margin:20px;
+	
+}
+.image
+{
+	float:left;/* for separate the image from paragraph*/
+	padding-bottom:0px;/* padding-bottom:10px;*/
+	margin:10px;
+}
+
+
+#main10
+{
+
+	padding-left:5 px;
+	border-color:black;
+	border-width:2px;
+	border-style:solid;
+	margin:5px;
+
+}
+
+#square
+{
+	height:25px;
+	width:25px;
+	backgorund:red;
+	position:absolute;
+	bottom:5px;
+	right:5px;
+
+}
+
+
+ul{
+list-style:none;
+margin:0;
+padding:0;
+
+}
+ul li a{
+
+text-decoration:none;
+background-color:#5c755e;
+color:white;
+display:block;
+width:80px;
+margin:30px;
+padding:10px;
+border:1px solid red;
+border-radius:2px;
+text-align:center;
+height:25px;
+line-height:25px;
+}
+ul li a:hover
+{
+	background-color:#d3d3d3;
+	color:black;
+}
+
+#theform
+{
+	color:white;
+	display:table;
+	padding:15px;
+	background-color:darkgreen;
+	border:solid 3px black;
+}
+.row{
+	display:table-row;
+}
+.row label
+{
+	display:table-cell;
+	padding:2px;
+	text-align:right;/*if excess words means align it to right*/
+}
+.row input
+{
+	display:table-cell;
+	padding:2px;
+}
